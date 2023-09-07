@@ -1,15 +1,18 @@
 import React, {Component} from 'react'
 import { NavLink, Outlet } from "react-router-dom";
 
+const path = process.env.REACT_APP_PUBLIC_URL + '/'
+
 class Layout extends Component {
     render() {
         return (
             <div>
                 <h1>Simple SPA</h1>
                 <ul className="header">
-                    <li><NavLink to="/">Home</NavLink></li>
-                    <li><NavLink to="/stuff">Stuff</NavLink></li>
-                    <li><NavLink to="/contact">Contact</NavLink></li>
+                    {/* All nav links need to go to {path} */}
+                    <li><NavLink to={path}>Home</NavLink></li>
+                    <li><NavLink to={path + "stuff"}>Stuff</NavLink></li>
+                    <li><NavLink to={path + "contact"}>Contact</NavLink></li>
                 </ul>
                 <div className="content">
                     <Outlet />
