@@ -12,13 +12,14 @@ import {
   import Contact from "./Contact";
   import Layout from "./Layout" 
 
+  const path = process.env.REACT_APP_PUBLIC_URL + '/'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/" element={<Layout />}>
+    <Route path={path} element={<Layout />}>
       <Route index element={<Home />}/>
-      <Route path="/stuff" element={<Stuff />}/>
-      <Route path="/contact" element={<Contact />}/>
+      <Route path={path + "stuff"} element={<Stuff />}/>
+      <Route path={path + "/contact"} element={<Contact />}/>
     </Route>
   )
 );
