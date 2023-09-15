@@ -18,19 +18,23 @@ This repository houses a single-page application hosted on cloud.gov Pages using
 ### Prerequisites for macOS
 
 *Install `node.js` LTS and `npm`*
+
 Homebrew: ```brew install node```
+
 macOS Installer: https://nodejs.org/en/download
 
 node.js web server
+
 NPM: ```npm install http-server -g``` 
 
 *(optional) NVM*
+
 Homebrew: ``` brew install nvm```
 
 ## Installation
 
 *Below are steps to run the application locally and then how to push it the Pages platform* 
-***Disclaimer: When run locally node will serve the application on `localhost:3000` by default. If you have something currently running on this port you do not need to stop it as node will direct you to the next available port with your approval*** 
+***Disclaimer: When run locally node will serve the application on `localhost:3000` by default. If you have something currently running on this port you do not need to stop it as node will direct you to the next available port with your approval.*** 
 
 
 ### Locally
