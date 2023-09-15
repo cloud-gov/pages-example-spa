@@ -6,7 +6,7 @@ class Stuff extends Component {
       <div>
         <h2>React 18</h2>
         <p>React 18 is a widely used JavaScript library used for building user interfaces. Developed and maintained byFacebook, React 18 simplifies the process
-          of creating interactive and dynamic web applications. By utilizing new methods imported from `react-dom/client` such as `createRoot` to enable concurrent mode keeping
+          of creating interactive and dynamic web applications. By utilizing new methods imported from <code>react-dom/client</code> such as <code>createRoot</code> to enable concurrent mode keeping
           the UI more responsive and updates faster. Build independant, isolated and reusable user interfaces and piece them together with React 18 tooling.    
         </p>
         
