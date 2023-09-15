@@ -52,3 +52,25 @@ Homebrew: ``` brew install nvm```
 ```https://github.com/Ephraim-G/react_spa4```
 5. Select `node.js` as the site engine
 6. Launch and view the site hosted on Pages by clicking the "View Build Link" in the Build History
+
+
+
+
+## Knowledge Base Article Glossary
+
+[`Class <class name> extends Component`](https://legacy.reactjs.org/docs/faq-styling.html)
+[`render()`](https://react.dev/reference/react-dom/render)
+[`class component`](https://react.dev/reference/react/Component)
+[`createRoot`](https://react.dev/reference/react-dom/client/createRoot)
+[`createRoutersFromElements`](https://reactrouter.com/en/main/utils/create-routes-from-elements)
+[`<Route>`](https://reactrouter.com/en/main/components/routes)
+[`path`](https://reactrouter.com/en/main/route/route#path)
+[`element`](https://reactrouter.com/en/main/components/routes)
+[`RouterProvider`](https://reactrouter.com/en/main/routers/router-provider)
+[`Strict Mode`](https://react.dev/reference/react/StrictMode)
+[`class Layout extends Component`](https://www.w3schools.com/react/react_class.asp)
+[`router`](https://reactrouter.com/en/main/routers/picking-a-router)
+[`NavLink`](https://reactrouter.com/en/main/components/nav-link)
+[`className`](https://legacy.reactjs.org/docs/faq-styling.html)
+[`Outlet`](https://reactrouter.com/en/main/components/outlet)
+[`export default Layout`](https://react.dev/learn/importing-and-exporting-components)
