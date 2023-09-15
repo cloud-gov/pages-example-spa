@@ -17,17 +17,17 @@ This repository houses a single-page application hosted on cloud.gov Pages using
 
 ### Prerequisites for macOS
 
-*Install `node.js` LTS and `npm`*
+**Install `node.js` LTS and `npm`**
 
 Homebrew: ```brew install node```
 
 macOS Installer: https://nodejs.org/en/download
 
-node.js web server
+**node.js web server**
 
 NPM: ```npm install http-server -g``` 
 
-*(optional) NVM*
+***(optional)*** **NVM**
 
 Homebrew: ``` brew install nvm```
 
@@ -89,4 +89,4 @@ Homebrew: ``` brew install nvm```
  [`Outlet`](https://reactrouter.com/en/main/components/outlet)  
 
  [`export default Layout`](https://react.dev/learn/importing-and-exporting-components)  
- 
+
