@@ -11,7 +11,9 @@ import {
   import Home from "./Home";
   import Stuff from "./Stuff";
   import Contact from "./Contact";
-  import Layout from "./Layout" 
+  import Layout from "./Layout";
+  import Page404 from "./Page404";
+
 // path must be set with react app public url 
   const path = process.env.REACT_APP_PUBLIC_URL + '/'
 
@@ -22,6 +24,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />}/>
       <Route path={path + "Stuff"} element={<Stuff />}/>
       <Route path={path + "contact"} element={<Contact />}/>
+      <Route path={path + "/*"} element={<Page404 />}/>
     </Route>
   )
 );
