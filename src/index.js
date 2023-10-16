@@ -15,7 +15,7 @@ import {
   import Page404 from "./Page404";
 
 // path must be set with react app public url 
-  const path = process.env.REACT_APP_PUBLIC_URL + '/'
+  const path = process.env.PUBLIC_URL + '/'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
