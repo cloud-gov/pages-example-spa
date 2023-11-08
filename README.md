@@ -38,18 +38,19 @@ Homebrew: ``` brew install nvm```
 
 
 ### Locally
-1. Clone the repository
-```git clone git@github.com:Ephraim-G/react_spa4.git```
-2. Run the application locally via `npm`
-```npm start```
+1. Run the application locally via `npm`
+```npm install```
+2. Clone the repository
+```git clone git@github.com:cloud-gov/pages-example-spa.git```
+3. Run `npm start`
 
 ### Hosted on cloud.gov Pages
 1. Clone the repository
-```git clone git@github.com:Ephraim-G/react_spa4.git```
+```git clone git@github.com:cloud-gov/pages-example-spa.git```
 2. Navigate to your Pages account
 3. Go to "Sites" >> "+ADD site"
 4. Copy + Paste the repository URL 
-```https://github.com/Ephraim-G/react_spa4```
+```https://github.com/cloud-gov/pages-example-spa```
 5. Select `node.js` as the site engine
 6. Launch and view the site hosted on Pages by clicking the "View Build Link" in the Build History
 
