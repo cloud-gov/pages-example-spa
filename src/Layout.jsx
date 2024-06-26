@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { NavLink, Outlet } from "react-router-dom";
 
-const path = import.meta.env.BASE_URL + '/'
+const path = process.env.BASEURL + '/'
 
 class Layout extends Component {
     render() {
