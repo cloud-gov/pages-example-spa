@@ -24,7 +24,7 @@ const router = createBrowserRouter(
       <Route index element={<Home />}/>
       <Route path={path + "Stuff"} element={<Stuff />}/>
       <Route path={path + "contact"} element={<Contact />}/>
-      <Route path={path + "/*"} element={<Page404 />}/>
+      <Route path={path + "*"} element={<Page404 />}/>
     </Route>
   )
 );
