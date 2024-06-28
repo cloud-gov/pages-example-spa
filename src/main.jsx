@@ -26,7 +26,7 @@ const router = createBrowserRouter(
       <Route path="*" element={<Page404 />}/>
     </Route>
   ),
-  {basename: process.env.SITE_PREFIX}
+  {basename: import.meta.env.BASE_URL}
 );
 
 createRoot(document.getElementById("root")).render(
