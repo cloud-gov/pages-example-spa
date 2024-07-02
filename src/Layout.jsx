@@ -8,7 +8,6 @@ class Layout extends Component {
             <div>
                 <h1>Simple SPA</h1>
                 <ul className="header">
-                    {/* All nav links need to go to {path} */}
                     <li><NavLink to='/'>Home</NavLink></li>
                     <li><NavLink to="stuff">Stuff</NavLink></li>
                     <li><NavLink to="contact">Contact</NavLink></li>
