@@ -14,19 +14,19 @@ import {
   import Layout from "./Layout";
   import Page404 from "./Page404";
 
-// path must be set with react app public url 
-  const path = process.env.PUBLIC_URL + '/'
+// path must be set with react app base url 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     // set route as the path plus layout
-    <Route path={path} element={<Layout />}>
+    <Route path='/' element={<Layout />}>
       <Route index element={<Home />}/>
-      <Route path={path + "Stuff"} element={<Stuff />}/>
-      <Route path={path + "contact"} element={<Contact />}/>
-      <Route path={path + "/*"} element={<Page404 />}/>
+      <Route path="stuff" element={<Stuff />}/>
+      <Route path="contact" element={<Contact />}/>
+      <Route path="*" element={<Page404 />}/>
     </Route>
-  )
+  ),
+  {basename: import.meta.env.BASE_URL}
 );
 
 createRoot(document.getElementById("root")).render(
