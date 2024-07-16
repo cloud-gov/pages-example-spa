@@ -4,11 +4,10 @@
 ![node-current](https://img.shields.io/node/v/npm)
 ![Static Badge](https://img.shields.io/badge/logo-javascript-blue?logo=javascript)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Ephraim-G/react_spa4)
-![React](https://shields.io/badge/react-black?logo=react&style=for-the-badge)
 
 # Single-Page Application hosted on cloud.gov Pages
 
-This repository houses a single-page application hosted on cloud.gov Pages using React and React Router v6. This project is desgined to showcase the capabilities of cloud.gov Pages, where you can easily host and deploy your SPAs. React and React Router v6 are the backbone of this application, providing a smooth and dynamic user experience. Explore the code and development setup to see how you can leverage cloud.gov Pages for your own React-based SPAs. 
+This repository houses a single-page application hosted on cloud.gov Pages using React and React Router v6. This project is designed to showcase the capabilities of cloud.gov Pages, where you can easily host and deploy your SPAs. React and React Router v6 are the backbone of this application, providing a smooth and dynamic user experience. Explore the code and development setup to see how you can leverage cloud.gov Pages for your own React-based SPAs. 
 
 
 ## Getting Started
@@ -34,7 +33,7 @@ Homebrew: ``` brew install nvm```
 ## Installation
 
 *Below are steps to run the application locally and then how to push it the Pages platform* 
-***Disclaimer: When run locally node will serve the application on `localhost:3000` by default. If you have something currently running on this port you do not need to stop it as node will direct you to the next available port with your approval.*** 
+***Disclaimer: When run locally node will serve the application on `localhost:5173` by default. If you have something currently running on this port you do not need to stop it as node will direct you to the next available port with your approval.*** 
 
 
 ### Locally
@@ -42,7 +41,7 @@ Homebrew: ``` brew install nvm```
 ```npm install```
 2. Clone the repository
 ```git clone git@github.com:cloud-gov/pages-example-spa.git```
-3. Run `npm start`
+3. Run `npm run dev`
 
 ### Hosted on cloud.gov Pages
 1. Clone the repository

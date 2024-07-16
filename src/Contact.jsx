@@ -6,7 +6,7 @@ class Contact extends Component {
       <div>
         <h2>GOT QUESTIONS?</h2>
         <p>You can always refer back to the knowledge base article
-        at <a href="TBD">Simple React Single-Page Apllication</a>.
+        at <a href="TBD">Simple React Single-Page Application</a>.
         </p>
       </div>
     );
