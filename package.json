@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "engine": {
-    "node": "18.17.1"
+  "engines": {
+    "node": "^24.x.x",
+    "npm": "^11.10.0"
   },
   "scripts": {
     "pages": "npm run build",
@@ -12,6 +13,10 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": "^24.x.x",
+    "npm": "^11.10.0"
   },
   "dependencies": {
     "cross-spawn": "^7.0.5",
