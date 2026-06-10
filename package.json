@@ -14,16 +14,13 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "engines": {
-    "node": "^24.x.x",
-    "npm": "^11.10.0"
-  },
   "dependencies": {
     "cross-spawn": "^7.0.5",
     "esbuild": "^0.25.11",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.3",
+    "react-router": "^6.30.4",
+    "react-router-dom": "^6.30.4",
     "rollup": "^4.22.4"
   },
   "devDependencies": {
